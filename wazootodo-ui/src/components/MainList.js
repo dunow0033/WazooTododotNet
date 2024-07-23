@@ -38,6 +38,7 @@ function deletetodo(id) {
       })
       .then(response => {
           console.log('Todo deleted successfully:', response.data);
+          alert("Todo item " + )
           fetchTodoList();
       })
       .catch(error => {

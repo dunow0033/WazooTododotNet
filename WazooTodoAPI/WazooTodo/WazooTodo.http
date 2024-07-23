@@ -1,0 +1,6 @@
+@WazooTodo_HostAddress = http://localhost:5127
+
+GET {{WazooTodo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

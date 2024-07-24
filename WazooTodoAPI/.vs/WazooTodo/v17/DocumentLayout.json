@@ -91,8 +91,7 @@
               "RelativeToolTip": "WazooTodo\\Services\\TodoListService.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAnwCUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T02:30:04.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T02:30:04.797Z"
             },
             {
               "$type": "Document",
@@ -104,8 +103,7 @@
               "RelativeToolTip": "WazooTodo\\Repositories\\TodoListRepository.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAcwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T02:10:08.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T02:10:08.517Z"
             },
             {
               "$type": "Document",
@@ -129,8 +127,7 @@
               "RelativeToolTip": "WazooTodo\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-19T01:16:43.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T01:16:43.327Z"
             },
             {
               "$type": "Document",
@@ -142,8 +139,7 @@
               "RelativeToolTip": "WazooTodo\\Models\\TodoItem.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T21:35:28.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T21:35:28.517Z"
             }
           ]
         }

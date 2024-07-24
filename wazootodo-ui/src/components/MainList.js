@@ -28,9 +28,16 @@ function fetchTodoList() {
 }
 
 function deletetodo(id) {
-      axios.delete(`http://localhost:5127/api/TodoItems/${id}`, {
-          id: id
-      }, {
+
+      const confirmBox = window.confirm(`Are you sure that you want to delete todo item #${id}?`);
+
+      if(!confirmBox){
+        return;
+      }
+      else {
+        axios.delete(`http://localhost:5127/api/TodoItems/${id}`, {
+            //id: id
+        }, {
           headers: 
           {
               'Content-Type': 'application/json'
@@ -38,12 +45,13 @@ function deletetodo(id) {
       })
       .then(response => {
           console.log('Todo deleted successfully:', response.data);
-          alert("Todo item " + )
           fetchTodoList();
+          window.alert(`Todo item #${id} deleted successfully.`);
       })
       .catch(error => {
           console.error('There was an error deleting the item!', error);
         });
+      }
 }
 
 const createTodo = () => {
